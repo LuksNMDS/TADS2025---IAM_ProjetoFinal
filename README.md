@@ -14,7 +14,7 @@
 Este projeto é composto por duas etapas principais:
 
 ### **🔹 Parte 01 — Análise Exploratória (EDA)**  
-Exploração detalhada do conjunto de dados global de obesidade, incluindo:
+Para essa etapa foi feita uma exploração detalhada do conjunto de dados global de obesidade, incluindo:
 - Limpeza dos dados  
 - Tratamento de ausências  
 - Análise descritiva  
@@ -22,7 +22,7 @@ Exploração detalhada do conjunto de dados global de obesidade, incluindo:
 - Comparação entre regiões do mundo  
 
 ### **🔹 Parte 02 — Modelagem Preditiva**  
-Construção de modelos de regressão com o objetivo de prever a obesidade adulta (%), utilizando técnicas de machine learning e diferentes algoritmos.
+Enquanto nessa, foco presente na entrega deste repositório, foi a construção de modelos de regressão com o objetivo de prever a obesidade adulta (%), utilizando técnicas de machine learning e diferentes algoritmos.
 
 ---
 
