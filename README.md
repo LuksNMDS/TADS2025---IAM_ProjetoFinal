@@ -126,30 +126,24 @@ O modelo final foi salvo em modelo_final.pkl
 
 ---
 
-# ▶️ **Execução do Projeto**
+## ▶️ **Execução**
 
 ## ✔️ Instalação das Dependências
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
+- bash
+- pip install pandas numpy matplotlib seaborn scikit-learn
 ✔️ Executando
 
 Abra os arquivos:
-Parte01.ipynb
-Parte02_v2.ipynb
-Execute célula por célula
+- Parte01.ipynb (Contém a primeira parte solicitada para esse projeto, pode ser rodada de maneira independente para avaliação e consulta.)
+- Parte02_v2.ipynb (Contém a segunda parte solicitada para esse projeto, pode ser rodada de maneira independente para avaliação e consulta.)
+- Execute célula por célula. A análise completa será exibida no notebook. 
 
-A análise completa será exibida no notebook
+## 🏁 Conclusões Gerais
 
-🏁 Conclusões Gerais
+- Os dados mostram uma tendência crescente global da obesidade.
+- Indicadores econômicos e sociais são excelentes preditores.
+- Técnicas de Machine Learning são eficazes para prever obesidade adulta com bom nível de precisão.
+- A combinação de EDA + Modelagem proporciona uma visão completa do fenômeno.
 
-Os dados mostram uma tendência crescente global da obesidade.
-
-Indicadores econômicos e sociais são excelentes preditores.
-
-Técnicas de Machine Learning são eficazes para prever obesidade adulta com bom nível de precisão.
-
-A combinação de EDA + Modelagem proporciona uma visão completa do fenômeno.
-
-📄 Licença
-
+## 📄 Licença
 Este projeto está disponível para uso acadêmico e educacional.
