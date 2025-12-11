@@ -13,7 +13,7 @@
 ##  Sobre o Projeto  
 Este projeto é composto por duas etapas principais:
 
-### ** Parte 01 — Análise Exploratória (EDA)**  
+### Parte 01 — Análise Exploratória (EDA)
 Para essa etapa foi feita uma exploração detalhada do conjunto de dados global de obesidade, incluindo:
 - Limpeza dos dados  
 - Tratamento de ausências  
@@ -21,7 +21,7 @@ Para essa etapa foi feita uma exploração detalhada do conjunto de dados global
 - Visualizações e correlações  
 - Comparação entre regiões do mundo  
 
-### ** Parte 02 — Modelagem Preditiva**  
+### Parte 02 — Modelagem Preditiva 
 Enquanto nessa, foco presente na entrega deste repositório, foi a construção de modelos de regressão com o objetivo de prever a obesidade adulta (%), utilizando técnicas de machine learning e diferentes algoritmos.
 
 ---
@@ -64,16 +64,16 @@ Três modelos principais foram testados:
 
 ##  **3. Modelos Testados**
 
-### ** 3.1 Regressão Linear**
+### 3.1 Regressão Linear
 - Modelo base para comparação  
 - Útil para verificar linearidade e interpretar coeficientes  
 
-### ** 3.2 Random Forest Regressor**
+### 3.2 Random Forest Regressor
 - Modelo baseado em árvores  
 - Capaz de capturar relações não lineares  
 - Importante para avaliar importância das features  
 
-### ** 3.3 Gradient Boosting Regressor**
+### 3.3 Gradient Boosting Regressor
 - Modelo incremental baseado em boosting  
 - Geralmente superior para dados tabulares  
 - Modelo com melhor desempenho no projeto  
