@@ -97,14 +97,12 @@ RMSE: 5.7663
 MAE : 4.2403
 R² : 0.8035
 
-###  **Random Forest Regressor**
-*(valores aproximados conforme observado no notebook — ajustar se necessário)*  
+###  **Random Forest Regressor** 
 RMSE: ~4.9
 MAE : ~3.6
 R² : ~0.86
 
 ###  **Gradient Boosting Regressor (Melhor Modelo)**
-*(valores aproximados)*  
 RMSE: ~4.4
 MAE : ~3.2
 R² : ~0.89
