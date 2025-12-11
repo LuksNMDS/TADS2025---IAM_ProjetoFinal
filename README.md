@@ -1,4 +1,4 @@
-# Projeto Final – Aprendizado de Máquina  
+# Projeto Final – Introdução ao Aprendizado de Máquina  
 ### Análise Exploratória e Modelagem Preditiva de Obesidade Global  
 
 ---
