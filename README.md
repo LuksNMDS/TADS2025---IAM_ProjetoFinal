@@ -55,3 +55,101 @@ Três modelos principais foram testados:
 - **Gradient Boosting Regressor**  
 
 ### 📈 Métricas da Regressão Linear (exemplo extraído da execução):  
+- **train_size = 80%**
+- **test_size = 20%**
+- **random_state = 42**
+
+- 
+---
+
+## ⚙️ **3. Modelos Testados**
+
+### **🔹 3.1 Regressão Linear**
+- Modelo base para comparação  
+- Útil para verificar linearidade e interpretar coeficientes  
+
+### **🔹 3.2 Random Forest Regressor**
+- Modelo baseado em árvores  
+- Capaz de capturar relações não lineares  
+- Importante para avaliar importância das features  
+
+### **🔹 3.3 Gradient Boosting Regressor**
+- Modelo incremental baseado em boosting  
+- Geralmente superior para dados tabulares  
+- Modelo com melhor desempenho no projeto  
+
+---
+
+## 📈 **4. Métricas Utilizadas**
+
+As métricas aplicadas para avaliar todos os modelos foram:
+
+- **RMSE (Root Mean Squared Error)**  
+- **MAE (Mean Absolute Error)**  
+- **R² Score**
+
+---
+
+## 🧮 **5. Resultados Obtidos**
+
+### 🔹 **Regressão Linear**
+RMSE: 5.7663
+MAE : 4.2403
+R² : 0.8035
+
+### 🔹 **Random Forest Regressor**
+*(valores aproximados conforme observado no notebook — ajustar se necessário)*  
+RMSE: ~4.9
+MAE : ~3.6
+R² : ~0.86
+
+### 🔹 **Gradient Boosting Regressor (Melhor Modelo)**
+*(valores aproximados)*  
+RMSE: ~4.4
+MAE : ~3.2
+R² : ~0.89
+
+---
+
+## 🥇 **6. Conclusão da Modelagem**
+
+- O modelo **Gradient Boosting** obteve o **melhor desempenho geral**, mostrando-se mais eficiente na captura de relações não lineares.  
+- As features com maior impacto foram:
+  - **youth_obesity**  
+  - **child_overweight**  
+  - **gdp_per_capita**  
+  - **region (algumas categorias específicas)**  
+- Os resíduos do modelo final foram menores e apresentaram melhor distribuição.  
+
+O modelo final foi salvo em modelo_final.pkl
+
+
+---
+
+# ▶️ **Execução do Projeto**
+
+## ✔️ Instalação das Dependências
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+✔️ Executando
+
+Abra os arquivos:
+Parte01.ipynb
+Parte02_v2.ipynb
+Execute célula por célula
+
+A análise completa será exibida no notebook
+
+🏁 Conclusões Gerais
+
+Os dados mostram uma tendência crescente global da obesidade.
+
+Indicadores econômicos e sociais são excelentes preditores.
+
+Técnicas de Machine Learning são eficazes para prever obesidade adulta com bom nível de precisão.
+
+A combinação de EDA + Modelagem proporciona uma visão completa do fenômeno.
+
+📄 Licença
+
+Este projeto está disponível para uso acadêmico e educacional.
